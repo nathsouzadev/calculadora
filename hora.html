@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <title>Calculadora de salário por hora</title>
+</head>
+<body class="teal lighten-2">
+  <div class="container">
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo">PretaLab</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="./index.html">Salário total</a></li>
+          <li><a href="./hora.html">Salário por hora</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="row">
+      <form class="col s12 teal accent-2">
+        <div class="row col s6">
+          <div class="input-field col s6">
+            <input id="dias" type="number" class="validate">
+            <label for="dias">Dias trabalhados</label>
+          </div>
+          <div class="input-field col s6">
+            <input id="salario_hora" type="number" class="validate">
+            <label for="salario_hora">Salário total</label>
+          </div>
+          <a class="waves-effect waves-light btn">Calcular</a>
+        </div>
+        <div class="row col s6">
+          <p>Salário por hora</p>
+          <p>R$</p>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
