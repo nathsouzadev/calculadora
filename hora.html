@@ -28,17 +28,18 @@
             <label for="dias">Dias trabalhados</label>
           </div>
           <div class="input-field col s6">
-            <input id="salario_hora" type="number" class="validate">
-            <label for="salario_hora">Salário total</label>
+            <input id="salario_total" type="number" class="validate">
+            <label for="salario_total">Salário total</label>
           </div>
-          <a class="waves-effect waves-light btn">Calcular</a>
+          <a onclick="calcularValorHora()" class="waves-effect waves-light btn">Calcular</a>
         </div>
         <div class="row col s6">
           <p>Salário por hora</p>
-          <p>R$</p>
+          <p id='valor_hora' >R$</p>
         </div>
       </form>
     </div>
   </div>
+  <script src="./index.js"></script>
 </body>
 </html>
